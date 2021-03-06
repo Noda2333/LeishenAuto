@@ -22,7 +22,7 @@ function start(username, password) {
     };
 
     login(user).then(res => {
-        console.log(res.data)
+        console.log(res.data.msg)
         if (res.data.code == 0) {
             let account_token = res.data.data.login_info.account_token;
             pause({"account_token": account_token, "lang": "zh_CN"}).then(res2 => {
