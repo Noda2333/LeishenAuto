@@ -1,5 +1,5 @@
 # LeishenAuto
- 雷神加速器    暂停API
+ 雷神加速器     暂停API
 
 ## 使用方法
 配置 `Github`Secret，设置
